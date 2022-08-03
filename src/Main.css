@@ -1,0 +1,103 @@
+
+.main{
+    height: 25vw;
+    width: 100vw;
+    background-color: #EAE7E7;
+    display: flex;
+    justify-content: center;
+
+
+}
+.left{
+    padding: 40px;
+   
+    width: 50vw;
+    text-align: center;
+}
+
+.right{
+   
+    padding: 50px;
+    width: 45vw;
+}
+
+
+.percentages{
+    display: flex;
+
+    
+}
+.main-heading{
+    position: relative;
+    top: 3vh;
+}
+.main-heading , .second-heading{
+    height: 4.5vh;
+    padding: 10px;
+    font-size: 1.6em;
+    font-family: 'Raleway', 'sans-serif';
+    color: #544949;
+}
+.percentages{
+    position: relative;
+    top: 6vh;
+    padding: 10px;
+    height: 8vh;
+}
+.percentages *{
+    
+    font-family: 'Roboto','sans-serif';
+
+}
+.i{
+    color: #A39393;
+    font-size: 1.8em;
+}
+.j{
+    color: #A39393;
+    font-size: 1.2em;
+}
+.one, .two, .three{
+    color: #A39393;
+    width: 13vw;
+    height: 10vh;
+}
+.start-fr,.start-know{
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 12vw;
+    color: white;
+    text-align: center;
+    
+}
+.second-heading{
+    position: relative;
+    top: 8vh;
+    color:#A39393;;
+}
+.buttons{
+    position: relative;
+    top: 10vh;
+    display: flex;
+
+ 
+}
+.start-fr{
+    width: 10vw;;
+    background-color:#A39393;
+
+}
+.start-fr a{
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+}
+.start-know a{
+    color: #A39393;
+    font-size: 1em;
+    text-decoration: none;
+}
+.start-know{
+    background-color: white;
+}
