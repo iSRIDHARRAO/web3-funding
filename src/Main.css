@@ -1,6 +1,6 @@
 
 .main{
-    height: 25vw;
+    height: 48vh;
     width: 100vw;
     background-color: #EAE7E7;
     display: flex;
@@ -17,7 +17,7 @@
 
 .right{
    
-    padding: 50px;
+    padding: 20px;
     width: 45vw;
 }
 
