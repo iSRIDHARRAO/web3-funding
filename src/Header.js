@@ -64,7 +64,7 @@ function Header(){
             <div className="logo"><Link to="/"><img src="https://st.depositphotos.com/1265046/1328/i/600/depositphotos_13281915-stock-photo-human-brain-in-x-ray.jpg" alt="Logo"/><p>CONFERO - An aid for need</p></Link></div>            
             <div className="browse"><Link to="/browse"> Browse Fund Raisers</Link></div>
             <div className="how"><Link to="/how">How it works ?</Link></div>
-            <div className="start"><a href="https://www.google.com" target="_blank" rel="noopener noreferrer">Start a Fundraiser</a></div>
+            <div className="start"><Link to="/how">Start a Fundraiser</Link></div>
             <div className="icon"  onClick={profileRouting}><a> { (profile=== "") ? <PersonAddIcon/>  : <PersonIcon/> } </a></div>
 
             <div className="sign" onClick={onConnect}><a> { (account=== "") ?"Connect Wallet"  : account  } </a></div>

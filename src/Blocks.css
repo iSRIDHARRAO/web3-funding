@@ -1,0 +1,24 @@
+.blocks{
+    margin: 2vh 0 0 0;
+    text-align: center;
+}
+.blocks-blocks{
+    display: flex;
+    justify-content: center;
+    
+}
+.blocks-one, .blocks-two, .blocks-three{
+    border-radius: 1vw;
+    padding: 2vh;
+    height: 22vh;
+    width: 10vw;
+    background-color: #EAE7E7;
+    margin: 1vw 3vw 1vw 3vw;
+}
+.blocks-heading{
+    height: 4.5vh;
+    padding: 10px;
+    font-size: 1.6em;
+    font-family: 'Raleway', 'sans-serif';
+    color: #544949;
+}

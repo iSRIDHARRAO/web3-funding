@@ -1,4 +1,5 @@
 import "./Main.css";
+import { Link } from "react-router-dom";
 import React from "react";
 function Main(){
 
@@ -23,10 +24,11 @@ function Main(){
                 </div>
                 <div className="second-heading">A.I enabled , Fundraiser platform on Tezos Platform.</div>
                 <div className="buttons">
-                    <div className="start-fr"><a href="https://gitub.com" target="_blank" rel="noopener noreferrer">Start a Fundraiser</a></div>
+                    <div className="start-fr"><Link to='/raise'>Start a Fundraiser</Link></div>
                     <div className="start-know"><a href="https://tezos.com/" target="_blank" rel="noopener noreferrer">Know more about Tezos</a></div>                    
                 </div>
             </div>
+
         </div>
     )
 }
