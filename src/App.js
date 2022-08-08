@@ -1,4 +1,5 @@
 import Main from "./Main";
+import Footer from './Footer';
 import {BrowserRouter as Router , Route, Routes} from 'react-router-dom';
 import ProfileDetails from './ProfileDetails';
 import React from "react";
@@ -17,7 +18,7 @@ function App() {
       <Header/>
 
       <Routes>
-      <Route exact path='/' element={<><Main/><Blocks/></>}/>
+      <Route exact path='/' element={<><Main/><Blocks/><Footer/></>}/>
       <Route exact path='/profile' element={<ProfileDetails/>}/>
       <Route exact path='/profileForm' element={<ProfileForm/>}/>
       <Route exact path='/how' element={<How/>}/>

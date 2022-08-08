@@ -3,7 +3,7 @@ import React from 'react';
 
 function Browse(){
     return(
-        <div className='browse'>Browse Router</div>
+        <div className='browse'>Browse Fund Raisers here</div>
     )
 }
 

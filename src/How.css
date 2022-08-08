@@ -1,0 +1,30 @@
+.How{
+    background-color: #EAE7E7;
+    height: 90vh;
+}
+.Heading{
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #544949;
+    font-family: 'Raleway', 'sans-serif';
+    
+}
+.heading-underline{
+    border-bottom: 2px solid #544949;
+}
+.Matter {
+    margin-left: 35vw;
+ 
+}
+.matter-one, .matter-two, .matter-three, .matter-four, .matter-five{
+    padding: 10px 0 0 0;
+    font-size: 1em;
+    color: #544949;
+    font-weight: 500;
+}
+.icons{
+    position: relative;
+    top: 6px;    
+}

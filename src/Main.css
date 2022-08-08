@@ -1,7 +1,7 @@
 
 .main{
     height: 48vh;
-    width: 100vw;
+
     background-color: #EAE7E7;
     display: flex;
     justify-content: center;
@@ -9,7 +9,7 @@
 
 }
 .left{
-    padding: 40px;
+    padding-top: 40px;
    
     width: 50vw;
     text-align: center;
@@ -59,14 +59,14 @@
 }
 .one, .two, .three{
     color: #A39393;
-    width: 13vw;
+    width: 20vw;
     height: 10vh;
 }
 .start-fr,.start-know{
     border-radius: 5px;
     margin: 10px;
     padding: 10px;
-    width: 12vw;
+    width: 14vw;
     color: white;
     text-align: center;
     

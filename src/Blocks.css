@@ -8,12 +8,20 @@
     
 }
 .blocks-one, .blocks-two, .blocks-three{
+    margin: 1vh;
     border-radius: 1vw;
     padding: 2vh;
-    height: 22vh;
+    
     width: 10vw;
     background-color: #EAE7E7;
-    margin: 1vw 3vw 1vw 3vw;
+    margin: 0vw 3vw 1vw 3vw;
+    transition: box-shadow 0.3s;
+    
+    
+}
+.blocks-one:hover, .blocks-two:hover, .blocks-three:hover{
+    box-shadow: 4px 4px 15px;
+    transition: box-shadow 0.3s;
 }
 .blocks-heading{
     height: 4.5vh;
@@ -21,4 +29,19 @@
     font-size: 1.6em;
     font-family: 'Raleway', 'sans-serif';
     color: #544949;
+    
+}
+.blocks-one-one, .blocks-two-one, .blocks-three-one{
+    margin-bottom: 1vh;
+    padding-bottom: 5px;
+    color: #544949;
+    font-weight:500;
+    font-size: 1.2em;  
+    border-bottom: 1px solid #544949;
+
+}
+.blocks-one-two, .blocks-two-two, .blocks-three-two{
+    color: #000000;
+    font-weight:500;
+
 }

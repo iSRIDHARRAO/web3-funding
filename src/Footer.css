@@ -1,0 +1,62 @@
+.Footer{
+    margin-top: 2vh;
+
+    background-color: #ad8888;
+}
+.Footer-heading{
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    color: #000000;
+    
+}
+.underline{
+    border-bottom: 2px solid black;
+    
+}
+.footer-blocks{
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.footer-one, .footer-two{
+    padding: 2vh;
+    background-image: linear-gradient(to right, #a87979, #504343);
+    width: 17vw;
+
+    margin: 0 6vh 0 6vh;
+    border-radius: 15px;
+    color: #e4e7e7;
+    transition: box-shadow 0.5s;
+    
+}
+.footer-one:hover, .footer-two:hover{
+    box-shadow: 4px 4px 10px #000000;
+    transition: box-shadow 0.5s;
+}
+.footer-one-one, .footer-two-one{
+    padding: 4px;
+    font-size: 1.3em;
+}
+.footer-one-two, .footer-two-two,.footer-one-three, .footer-two-three,.footer-one-four, .footer-two-four,.footer-one-five, .footer-two-five{
+    font-size:1.1em;
+    padding: 4px;
+}
+.footer-icons{
+
+    display: flex;
+    justify-content: space-between;
+}
+.svg{
+    margin-top: 5px;
+    padding: 3px;
+    height:4vh;
+   
+    
+}
+svg:hover{
+    border-radius: 20px;
+    
+    background-color:  white;
+    transition: background-color 0.4s;
+}
