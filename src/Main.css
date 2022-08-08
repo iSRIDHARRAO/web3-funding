@@ -1,3 +1,8 @@
+@media only screen and (min-width: 992px) {
+    left{
+        padding-top: 0px;
+    }
+}
 
 .main{
     height: 48vh;
@@ -50,15 +55,15 @@
 
 }
 .i{
-    color: #A39393;
+    color: #544949;
     font-size: 1.8em;
 }
 .j{
-    color: #A39393;
+    color: #544949;
     font-size: 1.2em;
 }
 .one, .two, .three{
-    color: #A39393;
+    color: #544949;
     width: 20vw;
     height: 10vh;
 }
@@ -74,7 +79,7 @@
 .second-heading{
     position: relative;
     top: 8vh;
-    color:#A39393;;
+    color:#544949;
 }
 .buttons{
     position: relative;
@@ -85,7 +90,7 @@
 }
 .start-fr{
     width: 10vw;;
-    background-color:#A39393;
+    background-color:#544949;
 
 }
 .start-fr a{
@@ -94,7 +99,7 @@
     text-decoration: none;
 }
 .start-know a{
-    color: #A39393;
+    color: #544949;
     font-size: 1em;
     text-decoration: none;
 }

@@ -65,7 +65,7 @@ function Header(){
             <div className="browse"><Link to="/browse"> Browse Fund Raisers</Link></div>
             <div className="how"><Link to="/how">How it works ?</Link></div>
             <div className="start"><Link to="/raise">Start a Fundraiser</Link></div>
-            <div className="icon"  onClick={profileRouting}><a href='#'> { (profile=== "") ? <PersonAddIcon/>  : <PersonIcon/> } </a></div>
+            <div className="icon"  onClick={profileRouting}><a > { (profile=== "") ? <PersonAddIcon/>  : <PersonIcon/> } </a></div>
 
             <div className="sign" onClick={onConnect}><a> { (account=== "") ?"Connect Wallet"  : account  } </a></div>
         </div>
