@@ -6,7 +6,7 @@
 .Footer-heading{
     padding: 20px;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: #000000;
     
 }
@@ -36,10 +36,10 @@
 }
 .footer-one-one, .footer-two-one{
     padding: 4px;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 .footer-one-two, .footer-two-two,.footer-one-three, .footer-two-three,.footer-one-four, .footer-two-four,.footer-one-five, .footer-two-five{
-    font-size:1.1em;
+    font-size:1.0em;
     padding: 4px;
 }
 .footer-icons{
