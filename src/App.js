@@ -1,4 +1,6 @@
 import Main from "./Main";
+import Success from './Success';
+import Failure from './Failure';
 import Footer from './Footer';
 import {BrowserRouter as Router , Route, Routes} from 'react-router-dom';
 import ProfileDetails from './ProfileDetails';
@@ -23,6 +25,8 @@ function App() {
       <Route exact path='/profileForm' element={<ProfileForm/>}/>
       <Route exact path='/how' element={<How/>}/>
       <Route exact path='/browse' element={<Browse/>}/>
+      <Route exact path='/success' element={<Success/>}/>
+      <Route exact path='/failure' element={<Failure/>}/>
       <Route exact path='/raise' elemenr={<RaiseFunds/>}/>
       </Routes>
       

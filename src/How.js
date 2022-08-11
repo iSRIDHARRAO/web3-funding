@@ -21,10 +21,35 @@ function How(){
             <div className='how-works'>
                 <div className='Heading'><span className="heading-underline">How it works?</span></div>
                 <div className='how-sections'>
-                    <div className='section-one'>One</div>
-                    <div className='section-two'>Two</div>
-                    <div className='section-three'>Three</div>
-                    <div className='section-four'>Four</div>
+                    <div className='how-sections1'>
+                        <div className='section-one'>
+                            <div className='one-one'><span>Heading</span></div>
+                            <div className='two-two'>Matter</div>
+                        </div>
+                        <div className='section-two'>
+                            <div className='one-one'><span>Heading</span></div>
+                            <div className='two-two'>Matter</div>
+                        </div>
+                        <div className='section-three'>
+                        <div className='one-one'><span>Heading</span></div>
+                            <div className='two-two'>Matter</div>
+                        </div>
+                    </div>
+                    <div className='how-sections1'>
+                        <div className='section-one'>
+                            <div className='one-one'><span>Heading</span></div>
+                            <div className='two-two'>Matter</div>
+                        </div>
+                        <div className='section-two'>
+                            <div className='one-one'><span>Heading</span></div>
+                            <div className='two-two'>Matter</div>
+                        </div>
+                        <div className='section-three'>
+                            <div className='one-one'><span>Heading</span></div>
+                            <div className='two-two'>Matter</div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>

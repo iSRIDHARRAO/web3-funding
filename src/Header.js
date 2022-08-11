@@ -9,6 +9,7 @@ import PersonIcon from '@mui/icons-material/Person';
 
 function Header(){
     const navigate = useNavigate();
+    
     const [account,setAccount] = useState("");
     const [profile,setProfile] = useState("");
     useEffect(()=>{
@@ -44,16 +45,17 @@ function Header(){
    const profileRouting=()=>{
     
 
-    if(profile===""){
-        console.log(profile)
-       
-            navigate("/profileform");
+    if(account===""){
+        alert("Connect Wallet First")  
        
     }
     else{
-        console.log(profile)
+        if(profile===""){
+            navigate("/profileform");
+       }
+       else{
        
-            navigate("/profile");
+            navigate("/profile");}
     }
    }
    

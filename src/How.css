@@ -1,6 +1,6 @@
 .How{
     background-color: #EAE7E7;
-    height: 90vh;
+
 }
 .Heading{
     padding: 20px;
@@ -27,4 +27,35 @@
 .icons{
     position: relative;
     top: 6px;    
+}
+.how-sections1{
+    display: flex;
+    justify-content: center;
+}
+.section-one, .section-two, .section-three{
+    height: 25vh;
+    
+    width: 15vw;
+    margin: 1vw 2vw 2vw 2vw;
+    padding: 2vh;
+    background-color: #544949;
+    color: #EAE7E7;
+    transition: box-shadow 0.3s;
+    border-radius: 0 2em 0 2em;
+    /* font-size: 1.2em; */
+}.section-one:hover, .section-two:hover, .section-three:hover{
+    box-shadow: 6px 6px 10px rgb(0, 0, 0);
+    transition: box-shadow 0.3s;
+}
+.one-one{
+    padding-bottom: 1vh;
+    border-bottom: 2px solid #EAE7E7;
+    font-size: 1.2em;
+    text-align: center;
+   
+}
+
+.two-two{
+    text-align: center;
+    margin-top: 1vh;
 }

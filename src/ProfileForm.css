@@ -1,0 +1,92 @@
+
+.border{
+    border-bottom: 2px solid white;
+}
+.profile-form{
+    height: 90vh;
+    background-color: #EAE7E7;
+    display: flex;
+    justify-content: center;
+}
+.form{
+    margin-top: 10vh;
+    padding: 1vh;
+    height: 60vh;
+    width: 25vw;
+    background-color: #544949;
+    border-radius: 2vh 0vh 2vh 0vh;
+}
+.heading-form{
+    margin-top: 10px;
+    font-size: 1.3em;
+    text-align: center;
+ 
+}
+.input-fields{
+   text-align: center;
+   margin-top: 3vh;
+}
+input{
+    margin-top: 2vh;
+    height: 25px;
+    width: 250px;
+    font-size: 16px;
+}
+label{
+    font-size: 16px;
+}
+.one-one-one-one{
+    position: relative;
+    top: 15px;
+    left: -88px;
+}
+.one-one-one-two{
+    position: relative;
+    top: 15px;
+    left: -100px;
+}
+.one-one-one-three{
+    position: relative;
+    left: -69px;
+    top: 15px;
+}
+.one-one-one-three{
+    position: relative;
+    left: -69px;
+    top: 15px;
+}
+.one-one-one-four{
+    position: relative;
+    left: -95px;
+    top: 15px;
+}
+textarea{
+    margin-top: 2vh;
+    height: 60px;
+    width: 250px;
+    font-size: 16px;
+}
+select{
+    
+    height: 20px;
+    width: 100px;
+}
+option{
+    color: black;
+}
+label,.border{
+    color: white;
+}
+.button{
+    margin-top: 2vh;
+    height: 3.5vh;
+    width: 5vw;
+    font-size: 1em;
+    font-weight: 550;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: #544949;
+    color: white;
+    border:1px solid white
+}
