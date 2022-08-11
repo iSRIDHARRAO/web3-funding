@@ -14,7 +14,7 @@
  
  >*Because this platform is AI enabled means the image will be used to predict whether the patient really affected with brain tumor or not and it will accept/deny user's fundraising request without any human intervention*
  
-### How to use ?
+### How to use  Confero?
 
  1.User need to connect Tezos based  wallet to Confero by opening Tezos clicking on following link [Confero](https://www.google.com)
  
@@ -53,8 +53,21 @@
  
  >Attackers can't manipulate data by attacking blockchain protocol.
 
-## Technical Perspective
+## How we built this
 
-___
-
-Technical Perspective
+ *We have created this project by using the following tools*
+ 
+ *1.React from frontend*
+ 
+ *2.NodeJs, Express as middleware*
+ 
+ *3.Python to implement Machine Learning model of Brain Tumor prediction*
+ 
+ *4.IPFS as static file storage to save images after predicting Brain Tumor*
+ 
+ *5.MySql as backend to store user info ( We've used RDS service from AWS )*
+ 
+ *6.Smartpy to create Tezos smart contract in order to perform transactions like donations, withdraw*
+ 
+ Smart Contract Address on Jakarta Network :-
+ 
