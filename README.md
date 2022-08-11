@@ -14,7 +14,7 @@
  
  >*Because this platform is AI enabled means the image will be used to predict whether the patient really affected with brain tumor or not and it will accept/deny user's fundraising request without any human intervention*
  
-### How this works ?
+### How to use ?
 
  *1.User need to connect Tezos based  wallet to Confero by opening Tezos clicking on following link [Confero](https://www.google.com)* 
  
@@ -22,4 +22,6 @@
  
  *3.User can click on Start a FundRaiser to Raise fundraiser request, and user need to give the details of the patient and brain scanning image in order to be predicted and approved by the system using Machine Learning*
  
- *4.*
+ *4.User can also donate funds to the ones who are in need, one can browse all fundraisers in the Confero and can do donate*
+ 
+ *5.User can also see their donations and fundraisers through their profile.*
