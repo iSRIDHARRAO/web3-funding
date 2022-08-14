@@ -3,16 +3,18 @@ import './RaiseFunds.css';
 import {useNavigate} from 'react-router-dom';
 import axios from 'axios';
 import { getAccount } from './utils/wallet';
+import {donor, fundraiser} from './utils/operation';
 
 
 function RaiseFunds(){
     const navigate = useNavigate();
     const [title, setTitle] = useState("");
     const [matter, setMatter] = useState("");
-    const [image_url,setImage_url] = useState("");
+    const [image_url,setImage_url] = useState(null);
+    const [tumor, setTumor] = useState(null);
     const [amount_needed,setAmount_needed] = useState("");
     const [id5,setId5] = useState("");
-    const [amount_raised,setAmount_raised] = useState("0");
+    const [amount_raised,setAmount_raised] = useState(500000000);
     const [amount_need_to_be_raised,setAmount_need_to_be_raised] = useState("0");
     useEffect(() => {
         
@@ -26,13 +28,39 @@ function RaiseFunds(){
         
           fetchData();}
         
-          ,[])
+          ,[]);
+
+    const calledfunction = async() => {
+        try {
+
+            await fundraiser(amount_raised);
+            alert("Transaction succesful!");
+          } catch (err) {
+            alert(err.message);
+          }
+
+        // alert(amount_raised)
+        }
+
+
 
     let submitdetails = async (e) => {
       
         e.preventDefault();
 
-        
+        const formData = new FormData();
+        formData.append("file", image_url);
+ 
+
+        const res = await fetch("http://localhost:5000/predict", {
+            method: "POST",
+            body: formData,
+        }).then((res) => res.json());
+        const a=res.status
+        console.log(res.status)
+        setTumor(a)
+
+        if(a==="yes"){
         axios({
            method: 'post',
            url: 'http://localhost:3001/fundraisers',
@@ -48,13 +76,17 @@ function RaiseFunds(){
          }).then(function (response) {
               if(response.data==="Success"){
                     
-                  
+                calledfunction();
+              
                  navigate("/success");
               }
               else{
                  navigate("/failure")
               }
-            })
+            })}
+            else{
+                navigate("/failure")
+            }
         console.log(id5,title,matter,amount_raised,image_url)
     }
 
@@ -74,10 +106,10 @@ function RaiseFunds(){
                         <textarea type="text" id="mail" onChange={(e) => setMatter(e.target.value)} placeholder='Tell to people about your fundraiser...' name="mail"/><br/></div>
 
                         <div ><label className="raise-one-three" htmlFor="mobile">Image Url:</label><br/>
-                        <input type="text" id="mobile" onChange={(e) => setImage_url(e.target.value)} placeholder='give image url...' name="mobile"/><br/></div>
+                        <input type="file" id="mobile" onChange={(e) => setImage_url(e.target.files[0])} placeholder='give image url...' name="mobile"/><br/></div>
 
                         <div ><label className="raise-one-four" htmlFor="address">Amount Needed :</label><br/>
-                        <input type="Number" id="address" onChange={(e) => setAmount_needed(e.target.value)} placeholder='Amount in ( TEZ )' name="address"/><br/>
+                        <input type="Number" id="address" onChange={(e) => setAmount_raised(e.target.value)} placeholder='Amount in ( TEZ )' name="address"/><br/>
 
                         </div>
                         

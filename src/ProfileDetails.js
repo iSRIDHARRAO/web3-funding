@@ -3,6 +3,7 @@ import { useState , useEffect } from 'react';
 import axios from "axios";
 import { getAccount } from "./utils/wallet";
 import './ProfileDetails.css';
+import { withdraw } from "./utils/operation";
 
 
 function ProfileDetails() {
@@ -54,9 +55,15 @@ function ProfileDetails() {
     }, []);
   //end of hook
 //withdraw
-function withdrawmoney(){
-    console.log("Clicked withdraw")
-}
+const withdrawmoney = async() => {
+    try {
+        await withdraw();
+        alert("Transaction succesful!");
+      } catch (err) {
+        alert(err.message);
+      }
+
+    }
     return (
         
     <div className='Profile-details'>

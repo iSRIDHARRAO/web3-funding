@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect, useState } from 'react';
 import './Browse.css';
 import axios from 'axios';
+import { donor } from './utils/operation';
 
 
 
@@ -45,9 +46,17 @@ import axios from 'axios';
     fetchData();
   }, []);
 
-function donate(){
-  console.log(DonAddress,DonAmount)
-}
+  const donatefunction = async() => {
+    try {
+        await donor(DonAddress,parseInt(DonAmount));
+        alert("Transaction succesful!");
+      } catch (err) {
+        alert(err.message);
+      }
+
+    }
+
+
 
   return (
     <div className='browsing'>
@@ -104,7 +113,7 @@ function donate(){
             
             
       <div className='donate-button'>
-                <button onClick={donate} className='donate-button-original'>Donate</button>
+                <button onClick={donatefunction} className='donate-button-original'>Donate</button>
             </div>
             </div>
     </div>
