@@ -1,0 +1,24 @@
+
+.raise-funds{
+    background-color: #E4E7E7;
+    height: 90vh;
+}
+.raise-form{
+    width: 30vw;
+    height: 70vh;
+    background-color: #544949;
+    position: relative;
+    left: 35vw;
+    top: 8vh;
+}
+.raise-heading{
+    padding: 2vh;
+    font-size: 1.3em;
+    text-align: center;
+    border-bottom: 2px solid #E4E7E7;
+    color: #E4E7E7;
+}
+
+input{
+    color: black;
+}

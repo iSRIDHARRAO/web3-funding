@@ -27,7 +27,7 @@ function App() {
       <Route exact path='/browse' element={<Browse/>}/>
       <Route exact path='/success' element={<Success/>}/>
       <Route exact path='/failure' element={<Failure/>}/>
-      <Route exact path='/raise' elemenr={<RaiseFunds/>}/>
+      <Route exact path='/raise' element={<RaiseFunds/>}/>
       </Routes>
       
     

@@ -1,5 +1,50 @@
-.MainContainer{
-    width: 100vw;
-    height: 60vh;
-    background-color: #A39393;
+.Profile-details{
+    height: 90vh;
+    display: flex;
+    background-color: #E4E7E7;
+    align-items: center;
+    justify-content: center;
+}
+.Profile-details *{
+    color: #E4E7E7;
+}
+.profile-block{
+    background-color: #364141;
+    height: 55vh;
+    width: 24vw;
+    margin: 3vh;
+    border-radius: 5vh;
+ 
+    
+}
+.profile-heading{
+    text-align: center;
+    padding: 2vh;
+    font-size: 1.5em;
+    font-family: 'Raleway', 'sans-serif';
+    border-bottom: 2px solid #E4E7E7;
+}
+.profile-name{
+    position: relative;
+    padding: 2vh;
+    font-size: 1.1em;
+    left: 1.5vh;
+
+
+}
+.withdraw{
+    color: black;
+    height: 4vh;
+    text-align: center;
+    position: relative;
+    left: 15vh;
+    width: 15vh;
+    top: 3vh;
+    font-size: 1.1em;
+    font-family: 'Raleway', 'sans-serif';
+}
+.withdraw:hover{
+    background-color: gray;
+    color: white;
+    border: 1px solid white;
 }

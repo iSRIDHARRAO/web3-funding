@@ -11,7 +11,7 @@ function Success(){
     }
     return(
         <div className='success'>
-            <div className='one'>Success</div>
+            <div className='one'>Refresh Page once and Click on Below button</div>
             <div className='button'><button className='button' onClick={tohome}>Home</button></div>
         </div>
     );

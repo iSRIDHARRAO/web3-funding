@@ -40,16 +40,15 @@ import { getAccount } from './utils/wallet';
          }
        }).then(function (response) {
             if(response.data==="Success"){
+                  
+                
                navigate("/success");
             }
             else{
                navigate("/failure")
             }
           })
-          .catch(function (error) {
-            console.log(error);
-          });
-       
+          
           
             
         
@@ -71,10 +70,10 @@ import { getAccount } from './utils/wallet';
           <input type="text" id="fname"  onChange={(e) => setName(e.target.value)} placeholder='Your name goes here...'/><br/></div>
   
           <div ><label className="one-one-one-two" htmlFor="mail">Mail Id :</label><br/>
-          <input type="text" id="mail" onChange={(e) => setEmail(e.target.value)} placeholder='abcedfg@mail.com' name="mail"/><br/></div>
+          <input type="email" id="mail" onChange={(e) => setEmail(e.target.value)} placeholder='abcedfg@mail.com' name="mail"/><br/></div>
 
           <div ><label className="one-one-one-three" htmlFor="mobile">Mobile Number :</label><br/>
-          <input type="text" id="mobile" onChange={(e) => setMobile(e.target.value)} placeholder='+91-987654321' name="mobile"/><br/></div>
+          <input type="number" id="mobile" onChange={(e) => setMobile(e.target.value)} placeholder='+91-987654321' name="mobile"/><br/></div>
           
           <div ><label className="one-one-one-four" htmlFor="address">Address :</label><br/>
           <textarea type="text" id="address" onChange={(e) => setAddress(e.target.value)} placeholder='Address...' name="address"/><br/></div>
