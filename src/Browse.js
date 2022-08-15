@@ -69,13 +69,13 @@ import { donor } from './utils/operation';
         <div className='browsing-block'>
         <div className='browse-title' >{details.title}</div>
         <div className='browse-details'>
-            <div className="browse-image" ><img className='image-image' src={details.image_url} alt='Brain'/></div>
+            <div className="browse-image" ><img className='image-image' src='../../python-api/images/pred.jpg' alt='Brain'/></div>
             <div className='browse-story'  >{details.matter}</div>
         </div>
         <div className='browse-address'  >Fund Raiser wallet : <span className="address-style">{details.id}</span></div>
-        <div className='funds-needed' >Funds needed ( in TEZ ) : <span className="address-style">{details.amount_needed}</span></div>
-        <div className='funds-raised' >Funds raised ( in TEZ ) : <span className="address-style">{details.amount_raised}</span></div>
-        <div className='funds-need-to-be-raised' >Funds need to be raised ( in TEZ ) : <span className="address-style">{details.amount_need_to_be_raised}</span></div>
+        <div className='funds-needed' >Funds needed ( in Mutez ) : <span className="address-style">{details.amount_needed}</span></div>
+        <div className='funds-raised' >Funds raised ( in Mutez ) : <span className="address-style">{details.amount_raised}</span></div>
+        <div className='funds-need-to-be-raised' >Funds need to be raised ( in Mutez ) : <span className="address-style">{details.amount_need_to_be_raised}</span></div>
 
         
             {/* <div className='browse-buttons'>
@@ -105,7 +105,7 @@ import { donor } from './utils/operation';
             
             </div>
             <div className='browse-buttons'>
-            <div className='browse-donate-title'>Enter Amount and click below to donate ( in TEZ )</div>
+            <div className='browse-donate-title'>Enter Amount and click below to donate ( in Mutez )</div>
                 <input  className="counter-input" onChange={(e) => setDonAmount(e.target.value)}type='number' min="1" ></input>
                 
             

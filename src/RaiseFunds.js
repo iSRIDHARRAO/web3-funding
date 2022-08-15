@@ -109,7 +109,7 @@ function RaiseFunds(){
                         <input type="file" id="mobile" onChange={(e) => setImage_url(e.target.files[0])} placeholder='give image url...' name="mobile"/><br/></div>
 
                         <div ><label className="raise-one-four" htmlFor="address">Amount Needed :</label><br/>
-                        <input type="Number" id="address" onChange={(e) => setAmount_raised(e.target.value)} placeholder='Amount in ( TEZ )' name="address"/><br/>
+                        <input type="Number" id="address" onChange={(e) => setAmount_raised(e.target.value)} placeholder='Amount in ( MUTEZ )' name="address"/><br/>
 
                         </div>
                         

@@ -31,8 +31,8 @@ function How(){
                             <div className='two-two'>After submitting details image will be analyzed and by using Machine Learning, system predicts Brain Tumor and if patient really affected with Brain Tumor request will be approved.</div>
                         </div>
                         <div className='section-three'>
-                        <div className='one-one'><span>3.Image saves on IPFS</span></div>
-                            <div className='two-two'>After prediction, on Successful Approval the brain tumor image will be uploaded onto I.P.F.S ( InterPlanetary File System  ) which is a web3 static storage database</div>
+                        <div className='one-one'><span>3.Image saves on Public Internet</span></div>
+                            <div className='two-two'>After prediction, on Successful Approval the brain tumor image will be uploaded onto any public static storage service to display on Confero</div>
                         </div>
                     </div>
                     <div className='how-sections1'>
@@ -46,7 +46,7 @@ function How(){
                         </div>
                         <div className='section-three'>
                             <div className='one-one'><span>6.Check Profile Section</span></div>
-                            <div className='two-two'>Users </div>
+                            <div className='two-two'>Users can check their profile section for for their details </div>
                         </div>
                     </div>
                     

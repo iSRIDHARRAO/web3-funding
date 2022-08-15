@@ -74,7 +74,7 @@ const withdrawmoney = async() => {
            <div className="profile-block">
            <div className="profile-heading">Profile details</div>
       
-           <div className="profile-name">Id : {value.name}</div>
+           <div className="profile-name">Name : {value.name}</div>
               <div className="profile-name">Id : {value.id}</div>
               <div className="profile-name">Email : {value.email}</div>
               <div className="profile-name">Mobile No : {value.mblno} </div>

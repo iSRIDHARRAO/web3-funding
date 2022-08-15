@@ -71,7 +71,7 @@ function Header(){
     }
     else{
         if(profile===""){
-            alert("Create peofile first")
+            alert("Create profile first")
        }
        else{
        
